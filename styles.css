@@ -1,0 +1,117 @@
+/* Estilos para el menú de navegación */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #333;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 0.1cm;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  /* Estilos para la sección de galería */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .grid img {
+    width: 100%;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  section.acercde{
+    text-align: center;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  img{
+    width: 3cm;
+    height: 2cm;
+  }
+  img.torre{
+    width: 3cm;
+    height: 3cm;
+  }
+  img.teclado{
+    width: 3cm;
+    height: 1.5cm;
+  }
+  img.tele{
+    width: 4cm;
+    height: 3cm;
+  }
+  li{
+    list-style: none;
+  }
+  table{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.form{
+    float:left;
+  }
+
+  th{
+    padding-right: 1cm;
+  }
+  p.tiendas{
+    text-align: center;
+  }
+  ul.tiendas{
+    text-align: center;
+  }
+  textarea{
+    width: 200px;
+    height: 50px;
+  }
+  fieldset{
+    margin: auto;
+  }
+  div{
+    text-align: center;
+  }
+  img.imgmenu{
+    width: 9.90cm;
+    height: auto;
+    margin: 0.1cm;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.01cm;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

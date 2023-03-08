@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo de Menús y Frames</title>
+  </head>
+  <frameset rows="15%,*" frameborder="yes" bordercolor="#333" marginwidth="10%" marginheight="10%" scrolling="no">
+    <frame src="cabecera.html" name="sup"></frame>
+    <frameset cols="20%,80%">
+      <frame id="frmIzquierdo" name="frmIzquierdo" src="menu.html" sandbox></frame>
+      <frame id="frmDerecho" name="frmDerecho" src="main.html" sandbox="allow-scripts"></frame>
+      <frame id="frmDerecho" name="frmDerecho" src="productos.html" sandbox="allow-scripts"></frame>
+    </frameset>
+  </frameset>
+</html>
